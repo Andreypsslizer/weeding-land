@@ -452,12 +452,6 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .lead {
-    max-width: 720px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .lead {
     padding-top: 16px;
@@ -571,6 +565,7 @@ button:hover {
 
   .dresscode__rounds_div{
     display: flex;
+    grid-template-columns: repeat(3, 1fr);
     gap: 5px;
   }
 
@@ -612,5 +607,103 @@ button:hover {
 
   .footer__img{
     max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .dresscode__rounds_div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .dresscode__round_bej{
+    width: 80px; 
+    height: 80px; 
+    margin: 0;
+  }
+
+  .dresscode__round_zel{
+    width: 80px; 
+    height: 80px; 
+    margin: 0;
+}
+
+  .dresscode__round_gol{
+    width: 80px; 
+    height: 80px; 
+    margin: 0;
+  }
+
+  .dresscode__round_roz{
+    width: 80px; 
+    height: 80px; 
+    margin: 0;
+  }
+
+  .dresscode__round_cher{
+    width: 80px; 
+    height: 80px; 
+    margin: 0;
+  }
+
+  .dresscode__round_kor{
+    width: 80px; 
+    height: 80px; 
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .lead__imagesash{
+    max-height: 180px;
+  }
+
+  .lead__imagekat{
+    max-height: 190px;
+  }
+
+  .lead__heart{
+    bottom: 25px;
+  }
+
+  .intro__watch{
+    max-height: 80px;
+  }
+
+  .dresscode__round_bej{
+    width: 60px; 
+    height: 60px; 
+    margin: 0;
+  }
+
+  .dresscode__round_zel{
+    width: 60px; 
+    height: 60px; 
+    margin: 0;
+}
+
+  .dresscode__round_gol{
+    width: 60px; 
+    height: 60px; 
+    margin: 0;
+  }
+
+  .dresscode__round_roz{
+    width: 60px; 
+    height: 60px; 
+    margin: 0;
+  }
+
+  .dresscode__round_cher{
+    width: 60px; 
+    height: 60px; 
+    margin: 0;
+  }
+
+  .dresscode__round_kor{
+    width: 60px; 
+    height: 60px; 
+    margin: 0;
   }
 }
