@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weeding</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="description" content="приглашение на свадьбу">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Andrei Kovzik">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+    </header>
+    <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">Weeding party of</h1>
+        <p class="lead__subtitle">Александра и Екатерины</p>
+        <div class="lead__images">
+          <img class="lead__imagesash" src="./images/stickerSasha.png" alt="поезд">
+          <div class="div__heart"><img class="lead__heart" src="./images/heart.png" alt="сердечко"></div>
+          <img class="lead__imagekat" src="./images/stickerKatya.png" alt="голубь">
+        </div>
+        <audio id="audioPlayer" src="./audio/Flo_Rida-Right_Round.mp3"></audio>
+        <div class="lead__music">
+          <p class="intro__title">Жамкни!</p>
+          <button onclick="document.getElementById('audioPlayer').play()">▶</button>
+        </div>
+      </section>
+      <section class="intro">
+        <h2 class="intro__title">Мы сами не ожидали, но этот день настал</h2>
+        <p class="intro__text">— мы женимся!</p>
+        <picture>
+          <source media="(min-width: 767px)" srcset="./images/weedingcalendar.png">
+          <img src="./images/weedingcalendar2.png" alt="календарь мероприятия" class="intro__calendar">
+        </picture>
+        <div class="background__location">
+          <div class="location">
+          <h2 class="location__title">Где?</h2>
+          <p class="location__text">Место проведения мероприятия, где все гости будут жестоко показывать грязь..</p>
+          <p class="location__name">BOBOVICHI COUNTRY CLUB</p>
+          <a href="https://yandex.ru/maps/?um=constructor%3Ad209d4225ec4566d5c530a47345140f767b070186b6c5ae357a922fd89c30a1f&source=constructorLink"target="_blank" title="Яндекс.Карты" class="link location__link">Яндекс карты</a>
+          <p class="location__text">Подробнее о месте можно узнать тут</p>
+          <ul class="location__links">
+            <li class="location__list-item">
+              <a href="https://bobovichi.by/" target="_blank" title="Оф сайт" class="link footer__link">Сайт</a>
+            </li>
+            <li class="location__list-item">
+              <a href="https://www.instagram.com/bobovichi.by/?igsh=MWpuNDdweHZqazltYg%3D%3D#" target="_blank" title="Инста бобовичей" class="footer__link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="timing">
+          <h2 class="intro__title">Во сколько?<img class="intro__watch" src="./images/watch.png" alt="bottle"></h2>
+          <p class="location__text-tim">Сбор гостей: 16:00</p>
+        </div>
+      </section>
+      <section class="dresscode">
+        <div style="display: flex;flex-direction: row;align-items: flex-end;">
+          <img class="dresscode__img" src="./images/dresscode.webp" alt="">
+          <h2 class="intro__title">Дресс код</h2>
+        </div>
+        <div class="dresscode__rounds">
+          <p class="dresscode__text">Мы будем благодарны если при выборе наряда вы сможете придерживаться цветовой палитры, но это не входит в обязательные рамки (P.S. для Беры обязательно)</p>
+          <div class="dresscode__rounds_div">
+            <div class="dresscode__round_cher"></div>
+            <div class="dresscode__round_bej"></div>
+            <div class="dresscode__round_zel"></div>
+            <div class="dresscode__round_gol"></div>
+            <div class="dresscode__round_roz"></div>
+            <div class="dresscode__round_kor"></div>
+          </div>
+        </div>
+      </section>
+      <section class="dreamings">
+        <h2 class="intro__title">Наши пожелания</h2>
+        <div class="dreamings__li">
+          <img class="intro__bottle" src="./images/bottle.webp" alt="bottle">
+          <p class="dresscode__text">Дорогие гости, вместо цветов мы будем рады бутылочке вашего любимого напитка — чтобы праздник стал ещё теплее и душевнее!</p>
+          <img class="intro__bottle" src="./images/money.webp" alt="bottle">
+          <p class="dresscode__text">У нас дома есть и пледы, и сервиз, да и электроники хватает! Поэтому лучшим подарком для нас будут ваши тёплые пожелания и конвертик счастья</p>
+          <img class="intro__bottle" src="./images/rings.webp" alt="bottle">
+          <p class="dresscode__text">Просим не кричать “Горько” 🤭</p>
+        </div>
+        <h2 class="intro__title">Просим подтвердить своё присутствие, отписавшись нам в ТГ✈</h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="intro__title-fot">До встречи!❤</h2>
+      <img src="./images/stickerkortany.jpg" alt="love" class="footer__img">
+    </footer>
+  </div>
+</body>
+</html>
